@@ -1,4 +1,4 @@
-'''issuperset()'''
+'''issuperset'''
 #Menjadikan True jika set ini adalah superset dari set lain
 
 set_a = {1,2,3,4}

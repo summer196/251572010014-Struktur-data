@@ -1,5 +1,6 @@
 '''difference'''
 #memunculkan nilai set yang berisi perbedaan antara dua atau lebih
+#munculin nilai yanng menjadi perbedaan
 
 set_a = {1,2,3,4,5,6}
 set_b = {4,5,6,7,8,9,10,12,11}

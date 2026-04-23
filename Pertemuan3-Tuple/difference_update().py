@@ -1,5 +1,6 @@
 '''difference_update'''
 #Menghapus item dalam set yang juga ada pada set lain yang ditentukan
+#menghapus nilai yang sama pada set
 
 set_a = {1, 2, 3, 4, 7}
 set_b = {4, 5, 6, 7, 8}

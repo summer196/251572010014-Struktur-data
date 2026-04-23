@@ -1,4 +1,5 @@
 '''setdefault'''
+#menambahkan data?
 
 kontak = {'Kiara': '82114352867'}
 print('Sebelum set default:', kontak)
