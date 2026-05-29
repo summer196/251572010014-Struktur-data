@@ -2,5 +2,5 @@
 #mengcopy list
 
 buah = ['apel', 'pisang']
-copy = buah.copy()
+copy = buah.append()
 print(copy)
