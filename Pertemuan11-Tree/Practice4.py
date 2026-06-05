@@ -10,12 +10,7 @@ class BSTNode:
                     self.left.insert(new_key)
                 else:
                     self.left = BSTNode(new_key)
-            elif new_key > self.key:
-                if self.right:
-                    self.right.insert(new_key)
-                else:
-                    self.right = BSTNode(new_key)
-
+            
     def inorder(self):
         if self.left:
             self.left.inorder()
@@ -23,7 +18,7 @@ class BSTNode:
         if self.right:
             self.right.inorder()
 
-bst = BSTNode(70)
+bst = BSTNode(50)
 for value in [30, 70, 20, 40, 60, 80]:
     bst.insert(value)
 
